@@ -127,25 +127,6 @@ block default
       div.uk-margin.uk-text-center
         +link-to-all("see all brands", "brands.html")
 
-  //- Blog
-  section.uk-section.uk-section-small
-    div.uk-container
-
-      h2.uk-text-center Blog
-
-      div(class="uk-grid-medium " +
-                "uk-grid-match " +
-                "uk-child-width-1-1 " +
-                "uk-child-width-1-2@s"
-          uk-grid)
-
-        each article in articles
-          div
-            +article(article)
-
-      div.uk-margin.uk-text-center
-        +link-to-all("see all articles", "blog.html")
-
   //- About & News
   section.uk-section.uk-section-default.uk-section-small
     div.uk-container

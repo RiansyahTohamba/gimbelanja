@@ -1,25 +1,3 @@
-// Google Maps
-
-function initMap() {
-  var elements = document.querySelectorAll('.js-map');
-  Array.prototype.forEach.call(elements, function(el) {
-    var lat = +el.dataset.latitude,
-        lng = +el.dataset.longitude,
-        zoom = +el.dataset.zoom;
-    if ((lat !== '') && (lng !== '') && (zoom > 0)) {
-      var map = new google.maps.Map(el, {
-        zoom: zoom,
-        center: { lat: lat, lng: lng },
-        disableDefaultUI: true
-      });
-      var marker = new google.maps.Marker({
-        map: map,
-        animation: google.maps.Animation.DROP,
-        position: { lat: lat, lng: lng }
-      });
-    }
-  });
-}
 
 // Change view
 
