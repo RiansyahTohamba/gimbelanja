@@ -1,0 +1,15 @@
+Jadi ada poin misal angka yang bisa dimakan
+Kalo angka itu dimakan jadi nambah poin
+Tapi bisa ada pengurangan poin juga
+terus kalo ada makanan bisa nambah hadiah
+misal diskon susu
+Terus bisa ada bonus juga
+kalo bonus itu dimakan bisa nambah poin
+misal poin 1200 bisa ditukar hape samsung
+selain itu ada task yang harus dikerjain
+
+efek +
+lakukan task
+
+efek - 
+jika tidak dibuka jadi minus

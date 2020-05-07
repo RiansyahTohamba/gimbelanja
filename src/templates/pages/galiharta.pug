@@ -1,0 +1,32 @@
+extends /layouts/_article
+
+block vars
+  -
+    page = {
+      title: 'Gali Harta',
+      breadcrumbs: {}
+    }
+
+block article
+  div
+    article(class="uk-card " +
+                  "uk-card-default " +
+                  "uk-card-body " +
+                  "uk-article " +
+                  "tm-ignore-container")
+
+      header.uk-text-center
+        //- Title
+        h1.uk-article-title= page.title
+
+      div.uk-article-body
+        div.uk-text-center
+          img(src="images/games/galiharta.svg" alt="Gali Harta" width="280" height="280")
+        p.uk-text-lead.uk-text-center Ayo gali lebih banyak agar dapat hartanya
+        
+        h2.uk-text-center Our principles
+        ul.uk-list.uk-list-bullet
+          li Vestibulum ut mollis est. Fusce iaculis mauris ut tortor convallis sollicitudin. Suspendisse porta nulla nibh, id lacinia lacus tempus ut. Morbi non arcu aliquam, placerat sapien a, luctus diam. Etiam mattis cursus sem, eu maximus nisi bibendum nec. Vivamus ut turpis augue. Phasellus vehicula risus sit amet mi luctus malesuada.
+          li Curabitur justo diam, auctor vitae ornare sit amet, accumsan sed neque. Curabitur efficitur lacinia euismod. Nunc dictum sagittis lacus. Etiam ultrices nulla orci, in ultrices risus tincidunt ac. Cras et maximus mauris. Morbi aliquam efficitur maximus. Aenean orci diam, auctor a mattis eu, consectetur id urna.
+          li Morbi faucibus mattis ante. Donec varius neque sem, nec convallis mi dictum ut. Duis sit amet massa ac eros luctus egestas. Proin hendrerit aliquam metus, ac tincidunt risus viverra at. In viverra, ligula in facilisis interdum, dui arcu varius purus, eu blandit mi mi ut diam. Phasellus finibus metus sit amet lobortis dapibus. Nunc fringilla ac erat vitae elementum. Donec sagittis odio non mi vestibulum accumsan.
+
