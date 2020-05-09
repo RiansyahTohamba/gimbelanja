@@ -1,0 +1,36 @@
+extends /layouts/_article
+
+block vars
+  -
+    page = {
+      title: 'Misi Belanja',
+      breadcrumbs: {
+        'Games': 'games.html',
+      }
+    }
+
+block article
+  div
+    article(class="uk-card " +
+                  "uk-card-default " +
+                  "uk-card-body " +
+                  "uk-article " +
+                  "tm-ignore-container")
+
+      header.uk-text-center
+        //- Title
+        h1.uk-article-title= page.title
+
+      div.uk-article-body
+        div.uk-text-center
+          img(src="images/games/misibelanja.svg" alt="Misi Belanja" width="70" height="70")
+          p.uk-text-lead.uk-text-center Selesaikan Misinya Dapatkan Hadiahnya
+          div.uk-text-center
+            ul.uk-list.uk-list-bullet
+              li 
+                a(href="#") Beli 3 Casing MacBookAir dapat 200 Iphone 10
+              li 
+                a(href="#") Beli 4 AppleWatch dapat 20 Iphone 10
+              li 
+                a(href="#") Beli 4 MacBookAir dapat 20 Iphone 10
+

@@ -4,7 +4,9 @@ block vars
   -
     page = {
       title: 'Gali Harta',
-      breadcrumbs: {}
+      breadcrumbs: {
+        'Games': 'games.html',        
+      }
     }
 
 block article
@@ -22,8 +24,13 @@ block article
       div.uk-article-body
         div.uk-text-center
           img(src="images/games/galiharta.svg" alt="Gali Harta" width="280" height="280")
-        p.uk-text-lead.uk-text-center Ayo gali lebih banyak agar dapat hartanya
-        
+          p.uk-text-lead.uk-text-center Ayo gali lebih banyak agar dapat hartanya
+          button(class="uk-button " +
+                       "uk-button-primary " +
+                       "tm-product-add-button " +
+                       "tm-shine " +
+                       "js-add-to-cart") Gali Terus
+          
         h2.uk-text-center Our principles
         ul.uk-list.uk-list-bullet
           li Vestibulum ut mollis est. Fusce iaculis mauris ut tortor convallis sollicitudin. Suspendisse porta nulla nibh, id lacinia lacus tempus ut. Morbi non arcu aliquam, placerat sapien a, luctus diam. Etiam mattis cursus sem, eu maximus nisi bibendum nec. Vivamus ut turpis augue. Phasellus vehicula risus sit amet mi luctus malesuada.
